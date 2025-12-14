@@ -1,9 +1,7 @@
 package mygit;
 
 public class A {
-
-	public A() {
-		// TODO Auto-generated constructor stub
-	}
-
+    public String who() {
+    	return "A - Alice edit";
+    }
 }
