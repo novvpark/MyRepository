@@ -2,7 +2,6 @@ package mygit;
 
 public class B {
     public int add(int x, int y) {
-    	return x + y + 1;
-
+        return x + y;
     }
 }

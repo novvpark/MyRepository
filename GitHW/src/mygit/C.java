@@ -1,14 +1,13 @@
 package mygit;
 
 public class C {
+    public static void main(String[] args) {
+        System.out.println("start");
+        A a = new A();
+        B b = new B();
+        System.out.println(a.who());
+        System.out.println(b.add(1, 2));
+        System.out.println("Alice says hi");
 
-	public C() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+    }
 }
